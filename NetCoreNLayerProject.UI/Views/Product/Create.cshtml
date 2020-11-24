@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Ürün Ekleme Sayfası</h1>
+<center>
+    <div>
+        <form action="/Product/Create" method="post">
+            <input type="text" name="Name" placeholder="Ürün İsmi Giriniz..." /><br /><br />
+            <input type="number" name="Stock" placeholder="Ürün Stok Adeti Giriniz..." /><br /><br />
+            <input type="number" name="Price" placeholder="Ürün Fiyatı Giriniz..." /><br /><br />
+            <input type="number" name="CategoryId" placeholder="Ürün Kategori Id Giriniz..." /><br /><br />
+            <button type="submit" class="btn btn-primary">Kaydet</button>
+        </form>
+    </div>
+</center>
